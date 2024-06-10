@@ -1,4 +1,6 @@
 //Exercise 1: Variable Declaration
+
+
 let name = "Wise";
 let age = 24;
 let isStudent = true;
@@ -10,7 +12,7 @@ console.log("Is Student:", isStudent);
 let favoriteColour = "black";
 console.log("Favorite Colour:", favoriteColour);
 favoriteColour = "white";
-console.log("Favorite Colour:", favoriteColour);
+console.log("New favorite Colour:", favoriteColour);
 
 //Exercise 3: Arithmetic Operations
 let num1=10, num2=5;
