@@ -48,7 +48,16 @@ switch(true)
         console.log("temperature not found");
 }
 
-//Exercise 2: Divisibility Check
+/*Exercise 2: Divisibility Check
+
+1. Write a code using if else statements to check if a number is 
+divisible by 2, 3, or both:
+• Ifthe numberis divisible both by 2 and 3, print"Divisible 
+by both."
+• If the number is divisible by only 2, print "Divisible by 2."
+• If the number is divisible by only 3, print "Divisible by 3."
+• If the number is not divisible by either, print "Not 
+divisible by 2 or 3." */
 let num=5;
 
 if(num%2===0 && num%3===0)
@@ -207,6 +216,20 @@ do {
     value = prompt("Enter a number greater than 10");
 } while (value <= 10);
 console.log("Valid number entered:", value);
+
+/*.4. Create a simple guessing game where the user must guess a 
+number between 1 and 10. The game continues until the user 
+guesses the correct number. */
+
+let correctNum = 7; 
+let guessing;
+
+do {
+    guess = parseInt(prompt("Guess a number between 1 and 10"), 10);
+} while (guessing !== correctNum);
+
+console.log("You guessed the correct number:", correctNum);
+
 
         
     
